@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Pixel Scroll</title>
+    <script src="/main.js" defer></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="left">
+        <h1>Scroll</h1>
+        <label>
+            <p>Pixels: </p>
+            <input id="input" type="number" min="1" value="20">
+        </label>
+    </div>
+    <div class="right">
+        <button id="up" class="up" type="button">
+            <svg
+                class="icon icon-chevron-up"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+            >
+                <polyline points="18 15 12 9 6 15"></polyline>
+            </svg>
+        </button>
+        <button id="down" class="down" type="button">
+            <svg
+                class="icon icon-chevron-down"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                >
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </button>
+    </div>
+</body>
+</html>

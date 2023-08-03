@@ -1,0 +1,58 @@
+:root {
+    --font-family: monospace;
+    --font-size-n: 1rem;
+    --icon-size: 50px;
+    --padding: 10px;
+
+    --bg: #333;
+
+    font-size: 20px;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: var(--padding);
+    font-family: var(--font-family);
+    background-color: var(--bg);
+    color-scheme: dark light;
+    color: #f8f3f3;
+}
+
+div.left {
+    padding-right: var(--padding);
+}
+
+h1 {
+    margin: 0;
+    font-size: var(--font-size-n);
+    padding-bottom: 20px;
+}
+
+p {
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+[type=number] {
+    font-family: var(--font-family);
+    font-size: var(--font-size-n);
+    max-width: 100px;
+    background-color: transparent;
+    border: 1px solid #555;
+}
+
+div.right > button:first-child {
+    margin-bottom: 5px;
+}
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--icon-size);
+    cursor: pointer;
+    padding: 0;
+}
+
