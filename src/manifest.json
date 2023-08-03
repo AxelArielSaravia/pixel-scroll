@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "version": "0.1.0",
+    "version": "0.1.1",
     "name": "Pixel scroll",
-    "description": "Pixel scroll",
+    "description": "Manage the distance in pixels of the scroll",
     "author": "axarsar",
     "action": {
         "default_popup": "popup.html",
